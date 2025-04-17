@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-    background-color:#ebeacf !important;
-  color: #4a4a4a;
+body {
+    background-color: #ebeacf !important;
+    color: #4a4a4a;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -43,38 +43,30 @@ html{
 }
 
 .navbar {
-    
     font-family: roboto;
     font-size: 15pt !important;
     font-weight: bolder;
 }
-.nav-link:hover
-{
+.nav-link:hover {
     color: red !important;
     scale: 1.1;
     transition: 0.2s;
-
 }
-.order
-{
+.order {
     text-decoration: none;
-    color:gray;
-
+    color: gray;
 }
-.order:hover
-{
+.order:hover {
     color: red;
     font-size: 15pt;
     transition: 0.2s;
 }
 
-#carouselExampleIndicators
-{
+#carouselExampleIndicators {
     width: 60% !important;
     height: 35% !important;
     margin: 0 auto !important;
 }
-
 
 #chatbot-btn {
     position: fixed;
@@ -91,7 +83,7 @@ html{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-#order{
+#order {
     background-color: white !important;
     font-family: roboto;
     font-size: 25pt !important;
@@ -100,27 +92,24 @@ html{
     border-radius: 15px;
     margin-bottom: 0px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
 }
-#order p
-{
+#order p {
     font-family: roboto;
     font-size: 15pt;
     color: gray;
     font-weight: bolder;
 }
 
-
-.navbar{
+.navbar {
     margin: 20px auto !important;
     width: 75% !important;
     border-radius: 50px !important;
     padding: px !important;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)!important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
 }
 .btn:hover {
     scale: 1.1;
-     transition: 0.2s;
+    transition: 0.2s;
     background-color: red !important;
     color: white !important;
     font-family: roboto;
@@ -128,18 +117,17 @@ html{
 }
 .btn {
     margin-right: 20px !important;
-    border-color: gray!important;;
-    color:gray !important;
+    border-color: gray !important;
+    color: gray !important;
     font-family: roboto;
     font-size: 15pt !important;
     font-weight: bolder;
 }
 .navbar-brand {
-    
     font-family: poppins;
     font-size: 33pt !important;
     font-weight: bolder;
-    color:red !important ;
+    color: red !important;
 }
 
 .footer {
@@ -148,40 +136,36 @@ html{
     border-top: 1px solid #dee2e6;
 }
 
-.light
-{
+.light {
     margin: 0 0 5px 0;
     padding: 0;
-    color:gray;
+    color: gray;
 }
 .footer .social-icons a {
     font-size: 20px;
     margin-left: 10px;
     transition: 0.3s;
-    
 }
 
-
-.facebook { color: #1877F2; } 
+.facebook { color: #1877F2; }
 .instagram { color: #C13584; }
-.twitter { color: #1DA1F2; } 
-.linkedin { color: #0077B5; } 
-.email { color: #D44638; } 
+.twitter { color: #1DA1F2; }
+.linkedin { color: #0077B5; }
+.email { color: #D44638; }
 
-.footer{
+.footer {
     margin-top: 25px;
     margin-bottom: 0px;
 }
 
-.A{
-
+.A {
     height: 700px;
 }
 .footer .brand-name {
     font-family: poppins;
     font-size: pt !important;
     font-weight: bolder;
-    color:red !important ;
+    color: red !important;
 }
 card {
     border-radius: 10px;
@@ -225,10 +209,57 @@ card {
     background-color: #E76F51;
 }
 
-
 .toast-container {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 1050;
+}
+
+/* Cart toggle button */
+.cart-toggle {
+    margin-right: 20px !important;
+    border-color: #F4A261 !important;
+    color: #F4A261 !important;
+    font-family: roboto;
+    font-size: 15pt !important;
+    font-weight: bolder;
+}
+.cart-toggle:hover {
+    background-color: #F4A261 !important;
+    color: white !important;
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+/* Cart modal styles */
+#cartModal .modal-content {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#cartModal .modal-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+#cartModal .modal-title {
+    color: #ff5722;
+    font-family: roboto;
+    font-weight: bold;
+}
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+#cart-items li {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    font-family: roboto;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+#cartModal p {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }

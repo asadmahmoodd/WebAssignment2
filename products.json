@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Delicious Burger",
+      "price": 899,
+      "image": "./images/food1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cheesy Pizza",
+      "price": 1250,
+      "image": "./images/food2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Creamy Pasta",
+      "price": 1000,
+      "image": "./images/food3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Biryani",
+      "price": 399,
+      "image": "./images/food4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Anday Wala Burger",
+      "price": 150,
+      "image": "./images/food5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Handi",
+      "price": 1900,
+      "image": "./images/food6.jpg"
+    }
+  ]
